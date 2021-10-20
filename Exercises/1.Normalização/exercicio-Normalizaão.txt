@@ -1,0 +1,7 @@
+Aluno(id_aluno, nome, endereco, email)
+Instrutor(id_instrutor, nome, telefone)
+Curso(id_curso, nome, tipo, preco, I_id)
+I_id referencia Instrutor(id_instrutor)
+Pedido(id_pedido, data, C_id, A_id)
+C_id Referencia Curso(id_curso)
+A_id Referencia Aluno(id_aluno)
